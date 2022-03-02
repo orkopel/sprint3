@@ -1,1 +1,117 @@
-/* check */
+/* COLORS
+https://coolors.co/4b4237-d5a021-ede7d9-a49694-736b60
+4B4237 25%
+D5A021 48%
+EDE7D9 89%
+A49694 61%
+736B60 41% */
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+
+/* app-header , app-footer */
+
+.app-footer,
+.app-header {
+    background-color: #bbab85;
+    height: 5vh;
+}
+
+
+/* book-app */
+
+.book-app {
+    height: 90vh;
+    background-color: #EDE7D9;
+}
+
+
+/* book-filter */
+
+.book-filter {
+    background-color: #776959;
+    padding: 10px;
+}
+
+
+/* book-edit */
+
+.book-edit {
+    background-color: lightpink;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* book-details */
+
+.book-details {
+    background-color: #736B60;
+    padding: 20px;
+}
+
+.book-details img {
+    width: 150px;
+}
+
+
+/* book-list */
+
+.book-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* book-preview */
+
+.book-preview-container {
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: #A49694;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.success {
+    background-color: lightgreen;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
+
+.book-preview {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 150px;
+}
