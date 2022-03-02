@@ -1,6 +1,6 @@
 // import appsusApp from './views/app-sus.cmp.js';
 import homePage from './views/home-page.cmp.js'
-import mailApp from './apps/mail/views/app-smail.cmp.js'
+import mailApp from './apps/mail/views/mail-app.cmp.js'
 import notesApp from './apps/notes/views/note-app.cmp.js'
 // import bookApp from './views/book-app.cmp.js';
 // import aboutPage from './views/about-page.cmp.js'
