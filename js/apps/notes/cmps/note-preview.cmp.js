@@ -7,6 +7,7 @@ export default {
             <note-txt :note="note" v-if="isTextType"></note-txt>
             <!-- <img v-if=imgType">  -->
             <div>{{note.type}}</div>
+            <div>{{note.type}}</div>
         </section>
     `,
 
